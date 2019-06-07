@@ -8,7 +8,6 @@ class Hash
     my_hash.each do |key, value|
       if value == arguments && arguments.class != String
         my_result << key
-      else
       end
     end
     my_result
