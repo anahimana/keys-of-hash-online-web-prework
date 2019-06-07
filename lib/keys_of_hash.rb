@@ -10,6 +10,7 @@ class Hash
     #     my_result << key
     #   end
     # end
+    my_hash.each do |key, value|
     binding.pry
     my_result
   end
