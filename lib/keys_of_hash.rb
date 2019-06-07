@@ -11,7 +11,7 @@ class Hash
     #   end
     # end
     my_hash.each do |key, value|
-      arguments.each {|item| if my_result << key value == arguments }
+      arguments.each {|item| if my_result << key value == item }
     end
     binding.pry
     my_result
