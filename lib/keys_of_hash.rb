@@ -15,7 +15,7 @@ class Hash
       arguments.each {|item| my_result << key if value == item }
     end
     
-    binding.pry
+    # binding.pry
     my_result
   end
 end
