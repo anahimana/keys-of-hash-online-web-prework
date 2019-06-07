@@ -6,7 +6,7 @@ class Hash
     my_hash = to_h
     
     my_hash.each do |key, value|
-      if value == arguments && arguments.class != String
+      if value == arguments
         my_result << key
       end
     end
