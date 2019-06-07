@@ -9,10 +9,6 @@ class Hash
       if value == arguments && arguments.class != String
         my_result << key
       else
-        arguments.each do |item|
-          if item == value
-            my_result << key
-        end
       end
     end
     my_result
