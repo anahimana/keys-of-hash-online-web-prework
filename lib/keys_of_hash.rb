@@ -6,6 +6,7 @@ class Hash
     my_hash = to_h
     my_hash.each do |key, value|
       arguments.each {|item| my_result << key if value == item }
-    end    my_result
+    end
+    my_result
   end
 end
