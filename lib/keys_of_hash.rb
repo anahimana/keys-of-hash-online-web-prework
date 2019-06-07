@@ -6,4 +6,4 @@ class Hash
   end
 end
 
-Hash.keys_of()
+Hash.keys_of("")
