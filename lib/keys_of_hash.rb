@@ -12,7 +12,7 @@ class Hash
     # end
     
     my_hash.each do |key, value|
-      arguments.each {|item| if my_result << key value == item }
+      arguments.each {|item| my_result << key if value == item }
     end
     
     binding.pry
