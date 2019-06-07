@@ -11,6 +11,7 @@ class Hash
     #   end
     # end
     my_hash.each do |key, value|
+    end
     binding.pry
     my_result
   end
